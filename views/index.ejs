@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOL DUO</title>
+    <link href="/css/style.css" rel="stylesheet">
+</head>
+<body>
+    <!-- 네비게이션 바 -->
+    <nav class="main-nav">
+        <div class="nav-container">
+            <div class="logo">DUO</div>
+        </div>
+    </nav>
+
+    <!-- 메인 컨텐츠 -->
+    <main class="main-content">
+        <!-- 필터 섹션 -->
+        <section class="filter-section">
+            <h2 class="section-title">필터</h2>
+            <div class="filter-container">
+                <div class="position-container">
+                    <select class="position-select" aria-label="포지션 선택">
+                        <option value="my">내가 찾는 포지션</option>
+                        <option value="find">나를 찾는 포지션</option>
+                    </select>
+                    <ul class="position-icons" role="list" aria-label="포지션 아이콘">
+                        <!-- 포지션 아이콘은 JavaScript로 동적 생성됩니다 -->
+                    </ul>
+                </div>
+                <div class="select-container">
+                    <select aria-label="랭크 타입 선택">
+                        <!-- 랭크 타입 옵션은 JavaScript로 동적 생성됩니다 -->
+                    </select>
+                    <select aria-label="티어 선택">
+                        <!-- 티어 옵션은 JavaScript로 동적 생성됩니다 -->
+                    </select>
+                </div>
+                <button class="write-button" type="button">글 작성</button>
+            </div>
+        </section>
+    </main>
+
+    <!-- 푸터 -->
+    <footer class="main-footer">
+        <div class="footer-content">
+            <p>&copy; 2024 LOL DUO. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript 파일 -->
+    <script type="module" src="/js/main.js"></script>
+</body>
+</html> 
